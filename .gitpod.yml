@@ -1,8 +1,8 @@
 tasks:
   - init: |
       pip install jupyterlab rise
-      jupyter-nbextension install rise --py --sys-prefix
-      jupyter-nbextension enable rise --py --sys-prefix
+      jupyter nbextension install rise
+      jupyter nbextension enable rise
 
 vscode:
   extensions:
