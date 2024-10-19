@@ -1,7 +1,7 @@
 tasks:
   - init: |
       pip install jupyterlab
-      pip install jupyter-rise
+      pip install jupyterlab-rise
 
 vscode:
   extensions:
